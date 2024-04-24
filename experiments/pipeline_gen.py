@@ -17,7 +17,7 @@ from src.trainers.trainer_gen import (
 from src.trainers.trainer_sigmoid import (
     SigmoidTrainer,
 )
-from src.trainers.trainer_ddpm import TrainerDDPM
+# from src.trainers.trainer_ddpm import TrainerDDPM
 import src.models.gen_models
 from experiments.utils import get_parser, read_config, draw_generated
 from experiments.pipeline import Pipeline
