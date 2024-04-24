@@ -8,7 +8,7 @@ from pathlib import Path
 import os
 import pandas as pd
 
-from ..models.mTAND.model import MegaNetCE
+# from ..models.mTAND.model import MegaNetCE
 from ..data_load.dataloader import PaddedBatch
 from .base_trainer import BaseTrainer, _CyclicalLoader
 from sklearn.metrics import roc_auc_score, accuracy_score, mean_squared_error
