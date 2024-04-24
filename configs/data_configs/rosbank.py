@@ -53,7 +53,7 @@ def data_configs():
     features.numeric_values = {"amount": "identity"}
 
     # name of target col
-    features.target_col = "target_target_flag"
+    features.target_col = "target_flag"
     config.num_classes = 2
 
     ### TIME ###
