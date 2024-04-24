@@ -3,9 +3,9 @@
 EPOCHS=3
 DEVICE="cuda"
 NAME='MEAN_L_GEN'
-DATA_C="../configs/data_configs/rosbank.py"
-MODEL_C="../configs/model_configs/gen/rosbank.py"
-LOG_D="./rosbank/logs/"
+DATA_C="../configs/data_configs/age.py"
+MODEL_C="../configs/model_configs/gen/age.py"
+LOG_D="./age/logs/"
 GENVAL=0
 GENVAL_EPOCH=10
 RECON_VAL=0
