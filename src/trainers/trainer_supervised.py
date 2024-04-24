@@ -4,7 +4,7 @@ from typing import Any, Dict, List, Literal, Union, Tuple
 import numpy as np
 import torch
 
-from ..models.mTAND.model import MegaNetCE
+# from ..models.mTAND.model import MegaNetCE
 from .base_trainer import BaseTrainer
 from sklearn.metrics import roc_auc_score, accuracy_score, mean_squared_error
 
